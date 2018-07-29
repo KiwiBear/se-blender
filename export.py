@@ -308,7 +308,7 @@ def export_fbx(settings: ExportSettings, filepath, objects, fbx_settings = None)
         'mesh_smooth_type': 'OFF',
         'use_tspace': settings.isUseTangentSpace, # TODO deprecate settings.isUseTangentSpace
         # for characters
-        'global_scale': 0.098, # Resizes Havok collision mesh in .hkt (fixed for Blender 2.79) Default=1.0 for 2.78c
+        'global_scale': 0.1, # Resizes Havok collision mesh in .hkt (fixed for Blender 2.79) Default=1.0 for 2.78c
         'use_armature_deform_only': False,
         'add_leaf_bones': False,
         'armature_nodetype': 'NULL',
